@@ -37,40 +37,40 @@ Pratibha raises the concern for not just the women, but also for our sisters, wi
 
 # A sneek peek into what we have :
 - ### Login page:
-<p align="center"><img src="screenshots/Main Page.png" width = 80%></p><br>
+<p align="center"><img src="public/HOMEimages/Main Page.png" width = 80%></p><br>
 
 - ### About Section:
-<p align="center"><img src="screenshots/About Section.png" width = 80%></p><br>
+<p align="center"><img src="public/HOMEimages/About Section.png" width = 80%></p><br>
 
 - ### Steps Section:
-<p align="center"><img src="screenshots/Steps Section.png" width = 80%></p><br>
+<p align="center"><img src="public/HOMEimages/Steps Section.png" width = 80%></p><br>
 
 - ### Predict Section:
-<p align="center"><img src="screenshots/Predict section.png" width = 80%></p><br>
+<p align="center"><img src="public/HOMEimages/Predict section.png" width = 80%></p><br>
 
 - ### ML Model:
-<p align="center"><img src="screenshots/ML Model.png" width = 80%></p><br>
+<p align="center"><img src="public/HOMEimages/ML Model.png" width = 80%></p><br>
 
 - ### Patient Dasboard:
-<p align="center"><img src="screenshots/Patient Dashboard.jpeg" width = 80%></p><br>
-<p align="center"><img src="screenshots/Add Medicines.jpeg" width = 80%></p><br>
-<p align="center"><img src="screenshots/Add Problems.jpeg" width = 80%></p><br>
+<p align="center"><img src="public/HOMEimages/Patient Dashboard.jpeg" width = 80%></p><br>
+<p align="center"><img src="public/HOMEimages/Add Medicines.jpeg" width = 80%></p><br>
+<p align="center"><img src="public/HOMEimages/Add Problems.jpeg" width = 80%></p><br>
 
 - ### Doctor Dashboard:
-<p align="center"><img src="screenshots/Doctor Dashboard.png" width = 80%></p><br>
-<p align="center"><img src="screenshots/Accept Appointments.png" width = 80%></p><br>
+<p align="center"><img src="public/HOMEimages/Doctor Dashboard.png" width = 80%></p><br>
+<p align="center"><img src="public/HOMEimages/Accept Appointments.png" width = 80%></p><br>
 
 - ### Features Section:
-<p align="center"><img src="screenshots/Features Page.png" width = 80%></p><br>
+<p align="center"><img src="public/HOMEimages/Features Page.png" width = 80%></p><br>
 
 - ### Doctors Community: 
-<p align="center"><img src="screenshots/Meet Doctors Section.png" width = 80%></p><br>
+<p align="center"><img src="public/HOMEimages/Meet Doctors Section.png" width = 80%></p><br>
 
 - ### Yoga & Food:
-<p align="center"><img src="screenshots/Yoga & Food.png" width = 80%></p><br>
+<p align="center"><img src="public/HOMEimages/Yoga & Food.png" width = 80%></p><br>
 
 - ### Community Blogs:
-<p align="center"><img src="screenshots/Community Blogs.jpeg" width = 80%></p><br>
+<p align="center"><img src="public/HOMEimages/Community Blogs.jpeg" width = 80%></p><br>
 
 # What's next for Pratibha Web Application ?✨
 We want to grow our community of PCOS Women and make Pratibha Application available to every woman in the world. This platform will allow patients to consult doctors through Video Meetings and receive necessary medicines timely. This will also help them to reach the best doctors from any part of the world while just sitting at their homes. The platform also allows patients to pay fees to doctors directly online. We have planned to integrate Payment Gateway and promote this Web Application to a much larger extent. Every single Woman should know about PCOS , its effects, its symptoms, its cure through this Application. 
