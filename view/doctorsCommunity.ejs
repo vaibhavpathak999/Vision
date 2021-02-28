@@ -1,0 +1,28 @@
+<%- include('partials/header.ejs') %>
+
+<h1 style="font-weight:bold; font-size:40px; margin:40px auto;text-align:center;">Doctors Community</h1>
+<div class="container" style="width: 25%; margin: 60px;box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);">
+  <%doctorsList.forEach((item, i)=> {%>
+  <%if(item.isDoctor===true){%>
+  <form action="/patient/askAppointment" method="post">
+    <img class="card-img-top" style="height:100px;width:100px; margin-left:0px;" src="<%=item.pictureURL%>" alt="Doc image">
+    <%if(item.certified===true){%><img src="/HOMEimages/certified.png" style="height:60px;width:60px; position:relative; right:60px; top:22px;" alt=""><%}%>
+              <div class="card-body">
+                <h6 class="card-title">Doctor: <%=item.username  %></h6>
+                <p class="card-text" style="color:#000;">Doctor ID :<%= item.doctorID %></p>
+                <p class="card-text" style="color:#000;">Qualification:<%= item.qualification %> </p>
+                <p class="card-text" style="color:#000;">Hospital: <%= item.hospitalName %></p>
+                <p class="card-text" style="color:#000;">Location: <%= item.address %></p>
+                <input type="hidden" name="doctorId" value="<%= item.user_id %>">
+                <!-- <a href="" type="" class="btn btn-success">Appointment Sent</a> -->
+                <button type="submit" class="btn btn-primary" name="button">Ask Appointment</button>
+              </div>
+  </form>
+</div>
+
+<%}%>
+<%});%>
+
+
+
+<%- include('partials/footer.ejs') %>

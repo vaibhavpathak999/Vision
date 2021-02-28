@@ -1,0 +1,53 @@
+<%- include('partials/header.ejs') %>
+
+<h1 class="doc-heading">Patient Details</h1>
+
+<div style="margin: 20px auto;"class="container-fluid">
+  <div style="background-color: #FF827F;" class="card details-card">
+    <table style="margin: 60px 90px 60px;" class="table doc-table">
+      <tr class="doc-row">
+        <td class="doc-details">Name : <p class="doc-details-input"><%=userName%></p></td>
+        <td class="doc-details">Age : <p class="doc-details-input"><%=age%></p></td>
+      </tr>
+
+      <tr class="doc-row">
+        <td class="doc-details">Mobile No : <p class="doc-details-input"><%=contactNo%></p></td>
+        <td class="doc-details">Gender : <p class="doc-details-input"><%=gender%></p></td>
+      </tr>
+
+      <tr class="doc-row">
+        <td class="doc-details">Email : <p class="doc-details-input"><%=email%></p></td>
+        <td class="doc-details">PCOS Detected : <p class="doc-details-input">Yes</p></td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<!-- Problems Section -->
+<hr style="width:10%; border-top: 2px solid #757575; margin:40px auto 40px;">
+
+<h1 class="doc-heading">Problems Faced</h1>
+<div style="background-color: #FF827F;" class="card details-card">
+<div style="margin: 20px auto;"class="container-fluid">
+  <%problemList.forEach((item, i) => {%>
+    <h5 class="problems"><%=item.problemHeading%></h5>
+    <p class="problems"><%=item.problem%></p>
+<%});%>
+</div>
+</div>
+
+
+<!-- Medicnes Problems -->
+<hr style="width:10%; border-top: 2px solid #757575; margin:40px auto 40px;">
+<h1 class="doc-heading">Medicines</h1>
+<div style="margin: 20px auto;"class="container-fluid">
+  <div style="background-color: #FF827F;" class="card details-card dc">
+  <%medicineList.forEach((item, i) => {%>
+    <ul style="padding: 10% auto; ">
+      <li class="medicines-names"><%=item.medName%></li>
+    </ul>
+      <%});%>
+  </div>
+</div>
+
+<%- include('partials/footer.ejs') %>
